@@ -1,0 +1,31 @@
+{
+    "@type": "MessageCard",
+    "@context": "http://schema.org/extensions",
+    "themeColor": "0076D7",
+    "summary": "Kafka Stream",
+    "sections": [{
+        "activityTitle": "![TestImage](https://abdelkrim.files.wordpress.com/2014/02/aaarr-webhooks-pirate.gif)Kafka Stream",
+        "activitySubtitle": "app", //substitution
+        "activityImage": "https://abdelkrim.files.wordpress.com/2014/02/aaarr-webhooks-pirate.gif",
+        "facts": [{
+            "name": "Status",
+            "value": "There are problems with the KStream consumption"
+        },{
+            "name": "Start Offset",
+            "value": "start_offset" //substitution
+        },{
+            "name": "Start Offset TimeStamp",
+            "value": "start_timestamp" //substitution
+        },{
+            "name": "End Offset",
+            "value": "end_offset" //substitution
+        },{
+            "name": "End Offset Timestamp",
+            "value": "end_timestamp" //substitution
+        },{
+            "name": "Topic",
+            "value": "topic_name" //substitution
+        }],
+        "markdown": true
+    }]
+}

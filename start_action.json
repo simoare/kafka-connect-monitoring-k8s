@@ -1,0 +1,12 @@
+{
+    "@type": "MessageCard",
+    "@context": "http://schema.org/extensions",
+    "themeColor": "0076D7",
+    "summary": "Kafka Connect Monitoring",
+    "sections": [{
+        "activityTitle": "![TestImage](https://abdelkrim.files.wordpress.com/2014/02/aaarr-webhooks-pirate.gif)Kafka Stream",
+        "activitySubtitle": "The Monitoring Is Running To Solve Problems ...",
+        "activityImage": "https://abdelkrim.files.wordpress.com/2014/02/aaarr-webhooks-pirate.gif",
+        "markdown": true
+    }]
+}

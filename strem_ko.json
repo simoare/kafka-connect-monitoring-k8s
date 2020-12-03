@@ -1,0 +1,16 @@
+{
+    "@type": "MessageCard",
+    "@context": "http://schema.org/extensions",
+    "themeColor": "0076D7",
+    "summary": "Kafka Stream",
+    "sections": [{
+        "activityTitle": "![TestImage]https://abdelkrim.files.wordpress.com/2014/02/aaarr-webhooks-pirate.gif)Kafka Stream",
+        "activitySubtitle": "app", //substitution
+        "activityImage": "https://abdelkrim.files.wordpress.com/2014/02/aaarr-webhooks-pirate.gif",
+        "facts": [{
+            "name": "Status",
+            "value": "Kafka Stream App Is Not Running"
+        }],
+        "markdown": true
+    }]
+}
